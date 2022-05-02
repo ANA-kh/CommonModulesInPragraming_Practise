@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/UnitTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/UnitTest.cs.meta" afterDir="false" />
+    </list>
+    <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/CodeReadingNote.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCKit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCKit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCtest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCtest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonUsage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonUsage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/AutoStreamingSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/b4/6fd37ea7/PropertyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/ee/7203ae57/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/99/7f0db047/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/5c/4e3b37ba/Activator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/17/9bc5ef96/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/e3/a03cb5d1/TestAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SingletonUsage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singletonkit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/SingletonUsage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/SingletonTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/Singletonkit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IocKit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/UnitTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="28QomhWY8i2w9nqtz4HgojNkXVj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35034484" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.48175183" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Software\JetBrains Rider 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7356">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="7356" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="" />
+      <changelist id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="" />
+      <created>1651158332676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651158332676</updated>
+      <workItem from="1651158334623" duration="2450000" />
+      <workItem from="1651204807761" duration="127000" />
+      <workItem from="1651204946073" duration="3681000" />
+      <workItem from="1651209737441" duration="4566000" />
+      <workItem from="1651228230647" duration="2133000" />
+      <workItem from="1651409120359" duration="2134000" />
+      <workItem from="1651462577487" duration="1390000" />
+      <workItem from="1651465258239" duration="10339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1528" y="547" key="#Notifications/0.0.2560.1440@0.0.2560.1440" timestamp="1651158382921" />
+    <state x="492" y="527" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1651212680130">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="492" y="527" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.2560.1440@0.0.2560.1440" timestamp="1651212680130" />
+    <state width="663" height="464" key="DebuggerActiveHint" timestamp="1651466855166">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="663" height="464" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1651466855166" />
+    <state width="1481" height="531" key="GridCell.Tab.0.bottom" timestamp="1651475625450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625450" />
+    <state width="1481" height="531" key="GridCell.Tab.0.center" timestamp="1651475625450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625450" />
+    <state width="1481" height="531" key="GridCell.Tab.0.left" timestamp="1651475625450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625450" />
+    <state width="1481" height="531" key="GridCell.Tab.0.right" timestamp="1651475625450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625450" />
+    <state width="1481" height="531" key="GridCell.Tab.1.bottom" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.1.center" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.1.left" timestamp="1651475625450">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625450" />
+    <state width="1481" height="531" key="GridCell.Tab.1.right" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.2.bottom" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.2.center" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.2.left" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.2.right" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.3.bottom" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.3.center" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.3.left" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state width="1481" height="531" key="GridCell.Tab.3.right" timestamp="1651475625451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1481" height="531" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651475625451" />
+    <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size" timestamp="1651213921818">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1440@0.0.2560.1440" timestamp="1651213921818" />
+    <state x="1590" y="445" key="RiderGenerateDialog" timestamp="1651465682874">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1590" y="445" key="RiderGenerateDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651465682874" />
+    <state x="917" y="338" key="SettingsEditor" timestamp="1651228327706">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="917" y="338" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1651228327706" />
+    <state x="1274" y="651" key="VCS.ChangelistChooser" timestamp="1651465281297">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1274" y="651" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1651465281297" />
+    <state x="733" y="411" width="884" height="713" key="find.popup" timestamp="1651409935355">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="733" y="411" width="884" height="713" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651409935355" />
+    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1651228336630">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651228336630" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs</url>
+          <line>276</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\Singleton\Singletonkit.cs" initialLine="276" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs</url>
+          <line>298</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\Singleton\Singletonkit.cs" initialLine="298" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs</url>
+          <line>132</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\SimpleIOC\Editor\SimpleIOCTest.cs" initialLine="132">
+            <startOffsets>
+              <option value="3570" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3591" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
