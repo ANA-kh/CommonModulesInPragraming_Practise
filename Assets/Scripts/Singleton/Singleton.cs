@@ -15,7 +15,8 @@ namespace Singleton
         private static T _instance;
         private bool _hasInit = false;
 
-        public T Instance 
+        //不能私有化构造函数。  unity会用到
+        public static T Instance 
         {
             get
             {
@@ -36,6 +37,14 @@ namespace Singleton
                 return _instance;
             }
         }
+        
+        private void Awake()
+        {
+            if (_instance == null)
+            {
+                _instance = this as T;
+            }
+        }
     }
 
     public abstract class Singleton<T> : ISingleton where T : Singleton<T> //非常死的约束，使得无法像List<int> list 这样直接当作类型使用； 必须新建一个继承自Singleton<T>的类来使用
@@ -43,7 +52,7 @@ namespace Singleton
         private static T _instance;
         private bool _hasInit = false;
 
-        public T Instance
+        public static T Instance
         {
             get
             {

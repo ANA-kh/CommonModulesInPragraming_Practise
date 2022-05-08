@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
@@ -43,6 +44,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/54/71ecd1f5/TypeEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/UnityTestMethodCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/99/7f0db047/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/Singleton/Singleton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/17/9bc5ef96/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/0c/90b94ea7/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/e3/a03cb5d1/TestAttribute.cs" root0="SKIP_HIGHLIGHTING" />
@@ -149,7 +151,7 @@
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
       <workItem from="1651979836724" duration="15907000" />
-      <workItem from="1651997206825" duration="7672000" />
+      <workItem from="1651997206825" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -221,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652003879459</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add MonoSingleton">
+      <created>1652006266624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652006266624</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +262,8 @@
     <MESSAGE value="add IdEventSystem and Test" />
     <MESSAGE value="change gitignore" />
     <MESSAGE value="add Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Singleton" />
+    <MESSAGE value="add MonoSingleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MonoSingleton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
