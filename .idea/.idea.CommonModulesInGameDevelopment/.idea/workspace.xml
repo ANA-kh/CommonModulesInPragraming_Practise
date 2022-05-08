@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/ee/7203ae57/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/ad/da2dd4da/ITypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/Singleton/Singleton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0086CE0B-9B00-409A-8713-A9C4FE866B9D/79/3933735c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/5c/4e3b37ba/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +84,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/ReactUI/ss.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/ReactUI/UIVariable.cs" />
       </list>
     </option>
   </component>
@@ -151,7 +154,7 @@
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
       <workItem from="1651979836724" duration="15907000" />
-      <workItem from="1651997206825" duration="7845000" />
+      <workItem from="1651997206825" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -230,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652006266624</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add MonoSingleton">
+      <created>1652006466896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652006466896</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
