@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +149,7 @@
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
       <workItem from="1651979836724" duration="15907000" />
-      <workItem from="1651997206825" duration="5959000" />
+      <workItem from="1651997206825" duration="7672000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651998596705</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Singleton">
+      <created>1652003879459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652003879459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +252,8 @@
     <MESSAGE value="add TypeEventSystem" />
     <MESSAGE value="add IdEventSystem and Test" />
     <MESSAGE value="change gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
+    <MESSAGE value="add Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Singleton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -352,6 +356,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1274" y="651" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1651465281297" />
+    <state x="145" y="0" width="1185" height="1419" key="dock-window-1" timestamp="1652006256007">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="145" y="0" width="1185" height="1419" key="dock-window-1/0.0.2560.1440@0.0.2560.1440" timestamp="1652006256007" />
     <state x="733" y="411" width="884" height="713" key="find.popup" timestamp="1651409935355">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

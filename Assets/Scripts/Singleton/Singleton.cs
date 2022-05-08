@@ -10,14 +10,40 @@ namespace Singleton
         void Cleanup();
     }
 
-    
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
+    {
+        private static T _instance;
+        private bool _hasInit = false;
+
+        public T Instance 
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = GameObject.FindObjectOfType(typeof(T)) as T;
+                    if (_instance == null)
+                    {
+                        var go = new GameObject("Singleton of " + typeof(T).ToString(), typeof(T))
+                        {
+                            hideFlags = HideFlags.DontSave
+                        };
+                        
+                        _instance = go.GetComponent<T>();
+                    }
+                }
+
+                return _instance;
+            }
+        }
+    }
 
     public abstract class Singleton<T> : ISingleton where T : Singleton<T> //非常死的约束，使得无法像List<int> list 这样直接当作类型使用； 必须新建一个继承自Singleton<T>的类来使用
     {
         private static T _instance;
         private bool _hasInit = false;
 
-        public Singleton<T> Instance
+        public T Instance
         {
             get
             {
