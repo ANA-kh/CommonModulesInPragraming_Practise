@@ -8,6 +8,15 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EventSystemTest.cs" t="Include" />
+            <e p="SimpleIOCTest.cs" t="Include" />
+          </e>
+          <e p="EventSystem" t="Include">
+            <e p="EventSystemByType" t="Include">
+              <e p="TypeEventSystem.cs" t="Include" />
+            </e>
+          </e>
           <e p="notUp" t="Include">
             <e p="IOC" t="Include">
               <e p="IOCExample.cs" t="Include" />
@@ -20,9 +29,6 @@
             </e>
           </e>
           <e p="SimpleIOC" t="Include">
-            <e p="Editor" t="Include">
-              <e p="SimpleIOCTest.cs" t="Include" />
-            </e>
             <e p="SimpleIOC.cs" t="Include" />
             <e p="UnitTest.cs" t="Include" />
           </e>
