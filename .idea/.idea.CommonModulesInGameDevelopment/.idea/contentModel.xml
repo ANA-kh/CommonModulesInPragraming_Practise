@@ -42,6 +42,9 @@
             <e p="SimpleIOC.cs" t="Include" />
             <e p="UnitTest.cs" t="Include" />
           </e>
+          <e p="Singleton" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="CommonModulesInGameDevelopment.sln" t="IncludeFlat" />

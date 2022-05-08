@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -50,6 +55,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/ee/7203ae57/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/ad/da2dd4da/ITypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0086CE0B-9B00-409A-8713-A9C4FE866B9D/79/3933735c/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/5c/4e3b37ba/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -63,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/Singletonkit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IocKit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/IOC/IOCExample.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/UnitTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/Editor/EventSystemTest.cs" />
@@ -75,6 +80,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IdEventSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/PoolKit/PoolKit.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonUsage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" />
       </list>
     </option>
   </component>
@@ -99,8 +109,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.48175183" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs&#10;E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/notUp/PoolKit/PoolKit.cs" />
     <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
     <property name="ts.external.directory.path" value="C:\Software\JetBrains Rider 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../framework-design/.gitignore" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -141,7 +153,7 @@
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
       <workItem from="1651979836724" duration="15907000" />
-      <workItem from="1651997206825" duration="721000" />
+      <workItem from="1651997206825" duration="5959000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -199,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651994765566</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change gitignore">
+      <created>1651998596705</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651998596705</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +248,8 @@
     <MESSAGE value="change eventSystem Interface" />
     <MESSAGE value="add TypeEventSystem" />
     <MESSAGE value="add IdEventSystem and Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IdEventSystem and Test" />
+    <MESSAGE value="change gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -244,6 +264,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="663" height="464" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1651986772387" />
+    <state x="1122" y="100" width="1341" height="1240" key="DiffContextDialog" timestamp="1651998698290">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1122" y="100" width="1341" height="1240" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651998698290" />
     <state width="1481" height="531" key="GridCell.Tab.0.bottom" timestamp="1651994647792">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -312,18 +336,18 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1440@0.0.2560.1440" timestamp="1651213921818" />
-    <state x="1590" y="445" key="RiderGenerateDialog" timestamp="1651991339961">
+    <state x="1590" y="445" key="RiderGenerateDialog" timestamp="1652001670838">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1590" y="445" key="RiderGenerateDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651991339961" />
+    <state x="1590" y="445" key="RiderGenerateDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1652001670838" />
     <state x="1543" y="429" key="RollbackChangesDialog" timestamp="1651480294622">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1543" y="429" key="RollbackChangesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651480294622" />
-    <state x="917" y="338" key="SettingsEditor" timestamp="1651997930380">
+    <state x="917" y="338" width="998" height="912" key="SettingsEditor" timestamp="1651998697936">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="917" y="338" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1651997930380" />
+    <state x="917" y="338" width="998" height="912" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1651998697936" />
     <state x="1274" y="651" key="VCS.ChangelistChooser" timestamp="1651465281297">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -332,10 +356,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="733" y="411" width="884" height="713" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651409935355" />
-    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1651997329482">
+    <state x="1121" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1651998415212">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651997329482" />
+    <state x="1121" y="287" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651998415212" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,6 +375,19 @@
           <line>298</line>
           <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\Singleton\Singletonkit.cs" initialLine="298" />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs</url>
+          <line>332</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\notUp\Singleton\Singletonkit.cs" initialLine="332">
+            <startOffsets>
+              <option value="9275" />
+            </startOffsets>
+            <endOffsets>
+              <option value="9320" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
