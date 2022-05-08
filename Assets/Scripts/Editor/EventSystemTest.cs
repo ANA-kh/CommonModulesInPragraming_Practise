@@ -20,13 +20,13 @@ namespace EventSystem
             var eventArgs = new TestEventArgs();
             
             typeEventSystem.Send(eventArgs);
-            Assert.Equals(10,eventArgs.x);
+            Assert.AreEqual(10,eventArgs.x);
             eventArgs.x = 2;
             unRegister.UnRegister();
             typeEventSystem.Send(eventArgs);
-            Assert.Equals(2,eventArgs.x);
+            Assert.AreEqual(2,eventArgs.x);
         }
-        public class TestEventArgs : TypeEventArgs
+        public class TestEventArgs
         {
             public int x = 0;
         }

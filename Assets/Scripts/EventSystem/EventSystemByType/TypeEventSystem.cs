@@ -16,4 +16,76 @@ namespace EventSystem.EventSystemByType
         void UnRegister();
     }
     
+    public struct TypeEventSystemUnRegister<T> : IUnRegister
+    {
+        public ITypeEventSystem TypeEventSystem;
+        public Action<T> OnEvent;
+        public void UnRegister()
+        {
+            TypeEventSystem.UnRegister<T>(OnEvent);
+            TypeEventSystem = null;
+            OnEvent = null;
+        }
+    }
+    
+    public class TypeEventSystem : ITypeEventSystem
+    {
+        //通过包裹一层接口，延迟T的赋值，实现在字典中存储不同的Action<T>  （T不同）
+        private Dictionary<Type, ITypeEventHandler> _eventHandlers;
+        public interface ITypeEventHandler
+        {
+            
+        }
+        
+        public class TypeEventHandler<T> : ITypeEventHandler
+        {
+            public Action<T> handler;
+        }
+
+        public TypeEventSystem()
+        {
+            _eventHandlers = new Dictionary<Type, ITypeEventHandler>();
+        }
+        public void Send<T>() where T : new()
+        {
+            var e= new T();
+            Send<T>(e);
+        }
+
+        public void Send<T>(T e)
+        {
+            var type = typeof(T);
+            if (_eventHandlers.TryGetValue(type, out var handler))
+            {
+                (handler as TypeEventHandler<T>).handler?.Invoke(e);
+            }
+        }
+
+        public IUnRegister Register<T>(Action<T> onEvent)
+        {
+            var type = typeof(T);
+            ITypeEventHandler handler;
+            if (!_eventHandlers.TryGetValue(type, out handler))
+            {
+                handler = new TypeEventHandler<T>();
+                _eventHandlers.Add(type,handler);
+            }
+            (handler as TypeEventHandler<T>).handler += onEvent;
+            
+            return new TypeEventSystemUnRegister<T>()
+            {
+                TypeEventSystem = this,
+                OnEvent = onEvent
+            };
+        }
+
+        public void UnRegister<T>(Action<T> onEvent)
+        {
+            var type = typeof(T);
+            if (_eventHandlers.TryGetValue(type, out var handler))
+            {
+                (handler as TypeEventHandler<T>).handler -= onEvent;
+            }
+        }
+    }
 }
