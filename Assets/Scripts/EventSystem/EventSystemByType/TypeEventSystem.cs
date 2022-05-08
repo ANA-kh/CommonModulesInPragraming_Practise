@@ -7,20 +7,13 @@ namespace EventSystem.EventSystemByType
     {
         void Send<T>() where T : new();
         void Send<T>(T e);
-        void Register<T>(IEvent onEvent);
-        void UnRegister<T>(IEvent onEvent);
+        IUnRegister Register<T>(Action<T> onEvent);
+        void UnRegister<T>(Action<T> onEvent);
     }
 
     public interface IUnRegister
     {
         void UnRegister();
     }
-    
-    public interface IEvent
-    {
-        void OnEvent();
-    }
-    
-    
 }
 
