@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IDEventSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IdEventSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/SimpleIOCTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/SimpleIOCTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +34,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/b2/72b934fa/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/9e/3a033a82/EventHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/Editor/EventSystemTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/a4/ce0bf90d/0200004B.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +51,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/ad/da2dd4da/ITypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestRun/Tasks/SaveModiedSceneTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/5c/4e3b37ba/Activator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/Singletonkit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,7 +66,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/UnitTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/Editor/SimpleIOCTest.cs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/Editor/EventSystemTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IDEventSystem.cs" />
@@ -86,6 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IdEventSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/notUp/PoolKit/PoolKit.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -110,7 +99,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.48175183" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Ignore Files Support" />
     <property name="ts.external.directory.path" value="C:\Software\JetBrains Rider 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -123,10 +112,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="35492">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="35492" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -151,7 +140,8 @@
       <workItem from="1651462577487" duration="1390000" />
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
-      <workItem from="1651979836724" duration="13633000" />
+      <workItem from="1651979836724" duration="15907000" />
+      <workItem from="1651997206825" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -202,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651990628133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add IdEventSystem and Test">
+      <created>1651994765566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651994765566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +228,8 @@
     <MESSAGE value="add eventSystem Interface" />
     <MESSAGE value="change eventSystem Interface" />
     <MESSAGE value="add TypeEventSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TypeEventSystem" />
+    <MESSAGE value="add IdEventSystem and Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IdEventSystem and Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -322,10 +320,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1543" y="429" key="RollbackChangesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651480294622" />
-    <state x="917" y="338" key="SettingsEditor" timestamp="1651228327706">
+    <state x="917" y="338" key="SettingsEditor" timestamp="1651997930380">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="917" y="338" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1651228327706" />
+    <state x="917" y="338" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1651997930380" />
     <state x="1274" y="651" key="VCS.ChangelistChooser" timestamp="1651465281297">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -334,10 +332,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="733" y="411" width="884" height="713" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651409935355" />
-    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1651228336630">
+    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1651997329482">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651228336630" />
+    <state x="324" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1651997329482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
