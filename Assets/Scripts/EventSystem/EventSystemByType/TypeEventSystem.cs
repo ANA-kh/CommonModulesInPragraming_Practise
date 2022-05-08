@@ -57,7 +57,7 @@ namespace EventSystem.EventSystemByType
             var type = typeof(T);
             if (_eventHandlers.TryGetValue(type, out var handler))
             {
-                (handler as TypeEventHandler<T>).handler?.Invoke(e);
+                (handler as TypeEventHandler<T>).handler(e);
             }
         }
 
@@ -84,7 +84,15 @@ namespace EventSystem.EventSystemByType
             var type = typeof(T);
             if (_eventHandlers.TryGetValue(type, out var handler))
             {
-                (handler as TypeEventHandler<T>).handler -= onEvent;
+                var typeHandler = (handler as TypeEventHandler<T>);
+                typeHandler.handler -= onEvent;
+                
+                //handler减掉所有注册函数后会变成null，删除索引否则会空指针
+                //或者调用时使用handler?.Invoke(e)替换handler(e)
+                if (typeHandler.handler == null)
+                {
+                    _eventHandlers.Remove(type);
+                }
             }
         }
     }

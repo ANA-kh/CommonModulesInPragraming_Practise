@@ -9,10 +9,16 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Editor" t="Include">
-            <e p="EventSystemTest.cs" t="Include" />
-            <e p="SimpleIOCTest.cs" t="Include" />
+            <e p="NUnitTest" t="Include">
+              <e p="EventSystemTest.cs" t="Include" />
+              <e p="SimpleIOCTest.cs" t="Include" />
+            </e>
           </e>
           <e p="EventSystem" t="Include">
+            <e p="EventSystemByID" t="Include">
+              <e p="EventID.cs" t="Include" />
+              <e p="IDEventSystem.cs" t="Include" />
+            </e>
             <e p="EventSystemByType" t="Include">
               <e p="TypeEventSystem.cs" t="Include" />
             </e>

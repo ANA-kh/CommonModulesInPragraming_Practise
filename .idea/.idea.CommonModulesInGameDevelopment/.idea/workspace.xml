@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IDEventSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IdEventSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/SimpleIOCTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/SimpleIOCTest.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
@@ -37,16 +46,17 @@
     <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/b2/72b934fa/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/9e/3a033a82/EventHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/UnityProject/CommonModulesInGameDevelopment/Assets/Scripts/Editor/EventSystemTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/a4/ce0bf90d/0200004B.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/notUp/Singleton/SingletonTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/54/71ecd1f5/TypeEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/UnityTestMethodCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/99/7f0db047/AttributeTargets.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/17/9bc5ef96/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26BACF2A-B3E7-4E5B-9AB6-134973DBE886/0c/90b94ea7/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10B6135E-6343-4FDB-A4FC-6C109928AB3B/e3/a03cb5d1/TestAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/SimpleIOCTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/b4/6fd37ea7/PropertyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/ee/7203ae57/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F98E959-0DD5-4BDD-9999-34D99BEF6844/ad/da2dd4da/ITypeEventSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -71,7 +81,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/Editor/EventSystemTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/EventSystemTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IDEventSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/EventID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/NUnitTest/EventSystemTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByID/IdEventSystem.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +151,7 @@
       <workItem from="1651462577487" duration="1390000" />
       <workItem from="1651465258239" duration="10908000" />
       <workItem from="1651920779793" duration="6080000" />
-      <workItem from="1651979836724" duration="9519000" />
+      <workItem from="1651979836724" duration="13633000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -181,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651986926829</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add TypeEventSystem">
+      <created>1651990628133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651990628133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +230,8 @@
     <MESSAGE value="add simpleIOC" />
     <MESSAGE value="add eventSystem Interface" />
     <MESSAGE value="change eventSystem Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="change eventSystem Interface" />
+    <MESSAGE value="add TypeEventSystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TypeEventSystem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -224,78 +246,78 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="663" height="464" key="DebuggerActiveHint/0.0.2560.1440@0.0.2560.1440" timestamp="1651986772387" />
-    <state width="1481" height="531" key="GridCell.Tab.0.bottom" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.0.bottom" timestamp="1651994647792">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.0.center" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647792" />
+    <state width="1481" height="531" key="GridCell.Tab.0.center" timestamp="1651994647792">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.0.left" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647792" />
+    <state width="1481" height="531" key="GridCell.Tab.0.left" timestamp="1651994647792">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.0.right" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647792" />
+    <state width="1481" height="531" key="GridCell.Tab.0.right" timestamp="1651994647792">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.1.bottom" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647792" />
+    <state width="1481" height="531" key="GridCell.Tab.1.bottom" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.1.center" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.1.center" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.1.left" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.1.left" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.1.right" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.1.right" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.2.bottom" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.2.bottom" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.2.center" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.2.center" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.2.left" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.2.left" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.2.right" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.2.right" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.3.bottom" timestamp="1651990538641">
+    <state width="1481" height="531" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.3.bottom" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538641" />
-    <state width="1481" height="531" key="GridCell.Tab.3.center" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.3.center" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.3.left" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.3.left" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
-    <state width="1481" height="531" key="GridCell.Tab.3.right" timestamp="1651990538640">
+    <state width="1481" height="531" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
+    <state width="1481" height="531" key="GridCell.Tab.3.right" timestamp="1651994647793">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1481" height="531" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651990538640" />
+    <state width="1481" height="531" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1651994647793" />
     <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size" timestamp="1651213921818">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1440@0.0.2560.1440" timestamp="1651213921818" />
-    <state x="1590" y="445" key="RiderGenerateDialog" timestamp="1651987048498">
+    <state x="1590" y="445" key="RiderGenerateDialog" timestamp="1651991339961">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1590" y="445" key="RiderGenerateDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651987048498" />
+    <state x="1590" y="445" key="RiderGenerateDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651991339961" />
     <state x="1543" y="429" key="RollbackChangesDialog" timestamp="1651480294622">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -331,25 +353,6 @@
           <line>298</line>
           <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\Singleton\Singletonkit.cs" initialLine="298" />
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Editor/SimpleIOCTest.cs</url>
-          <line>132</line>
-          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\SimpleIOC\Editor\SimpleIOCTest.cs" initialLine="132" />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/EventSystem/EventSystemByType/TypeEventSystem.cs</url>
-          <line>59</line>
-          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\EventSystem\EventSystemByType\TypeEventSystem.cs" initialLine="59">
-            <startOffsets>
-              <option value="1534" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1586" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
