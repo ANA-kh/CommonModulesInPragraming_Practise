@@ -34,43 +34,40 @@ public class UIVariableTableEditor : Editor
 		if (!(target == null))
 		{
 			m_variables = serializedObject.FindProperty("variables");
-			m_list = (ReorderableList)(object)new ReorderableList(serializedObject, m_variables);
-			m_list.drawHeaderCallback = delegate(Rect P_0)
+			m_list = new ReorderableList(serializedObject, m_variables)
 			{
-				GUI.Label(P_0, "Variables:");
+				drawHeaderCallback = rect => { GUI.Label(rect, "Variables:"); },
+				elementHeightCallback = GetHeight,
+				drawElementCallback = DrawOneVariable,
+				onAddCallback = x=>
+				{
+					UIVariableTable val = (UIVariableTable)target;
+					val.AddDefaultVariable();
+					EditorUtility.SetDirty(target);
+				}
 			};
-			m_list.elementHeightCallback = (ReorderableList.ElementHeightCallbackDelegate)(object)(ReorderableList.ElementHeightCallbackDelegate)((int P_0) => GetHeight(m_variables, P_0));
-			m_list.drawElementCallback = delegate(Rect P_0, int P_1, bool P_2, bool P_3)
-			{
-				DrawOneVariable(m_variables, P_0, P_1, P_2, P_3);
-			};
-			m_list.onAddCallback = delegate
-			{
-				UIVariableTable val = (UIVariableTable)(object)(UIVariableTable)target;
-				val.AddDefaultVariable();
-				EditorUtility.SetDirty(target);
-			};
+
 			Init();
 		}
 	}
 
-	private float GetHeight(SerializedProperty P_0, int P_1)
+	private float GetHeight(int index)
 	{
-		var value = P_0.GetArrayElementAtIndex(P_1);
+		var value = m_variables.GetArrayElementAtIndex(index);
 		if (!value.isExpanded)
 		{
 			return 2f * EditorGUIUtility.singleLineHeight;
 		}
 		UIVariableTable val = (UIVariableTable)target;
-		UIVariable variable = val.GetVariable(P_1);
+		UIVariable variable = val.GetVariable(index);
 		ICollection<UIVariableBind> binds = variable.Binds;
 		return (float)(2 + binds.Count) * EditorGUIUtility.singleLineHeight;
 	}
 
-	private void DrawOneVariable(SerializedProperty P_0, Rect P_1, int P_2, bool P_3, bool P_4)
+	private void DrawOneVariable(Rect rect, int index, bool isActive, bool isFocused)
 	{
-		var value = P_0.GetArrayElementAtIndex(P_2);
-		bool flag = m_nameset.Contains(P_2);
+		var value = m_variables.GetArrayElementAtIndex(index);
+		bool flag = m_nameset.Contains(index);
 		Color color = GUI.color;
 		if (flag)
 		{
@@ -78,13 +75,13 @@ public class UIVariableTableEditor : Editor
 		}
 		SerializedProperty val = value.FindPropertyRelative("name");
 		SerializedProperty val2 = value.FindPropertyRelative("type");
-		Rect rect = new Rect(P_1.x + 8f, P_1.y, 16f, EditorGUIUtility.singleLineHeight);
-		Rect rect2 = new Rect(P_1.x + 12f, P_1.y, (P_1.width - 12f) / 2f - 5f, EditorGUIUtility.singleLineHeight);
-		Rect rect3 = new Rect(P_1.x + P_1.width / 2f + 5f, P_1.y, (P_1.width - 12f) / 2f - 5f, EditorGUIUtility.singleLineHeight);
-		value.isExpanded=(EditorGUI.Foldout(rect, value.isExpanded, GUIContent.none));
+		Rect rect1 = new Rect(rect.x + 8f, rect.y, 16f, EditorGUIUtility.singleLineHeight);
+		Rect rect2 = new Rect(rect.x + 12f, rect.y, (rect.width - 12f) / 2f - 5f, EditorGUIUtility.singleLineHeight);
+		Rect rect3 = new Rect(rect.x + rect.width / 2f + 5f, rect.y, (rect.width - 12f) / 2f - 5f, EditorGUIUtility.singleLineHeight);
+		value.isExpanded=(EditorGUI.Foldout(rect1, value.isExpanded, GUIContent.none));
 		EditorGUI.PropertyField(rect2, val, GUIContent.none);
 		EditorGUI.PropertyField(rect3, val2, GUIContent.none);
-		Rect rect4 = new Rect(P_1.x + 12f, P_1.y + EditorGUIUtility.singleLineHeight, P_1.width - 12f, EditorGUIUtility.singleLineHeight);
+		Rect rect4 = new Rect(rect.x + 12f, rect.y + EditorGUIUtility.singleLineHeight, rect.width - 12f, EditorGUIUtility.singleLineHeight);
 		SerializedProperty val3 = null;
 		UIVariableType val4 = (UIVariableType)val2.enumValueIndex;
 		switch ((int)val4)
@@ -109,12 +106,12 @@ public class UIVariableTableEditor : Editor
 		if (value.isExpanded)
 		{
 			UIVariableTable val5 = (UIVariableTable)target;
-			UIVariable variable = val5.GetVariable(P_2);
+			UIVariable variable = val5.GetVariable(index);
 			ICollection<UIVariableBind> binds = variable.Binds;
 			if (binds.Count > 0)
 			{
 				GUI.enabled = false;
-				Rect rect5 = new Rect(P_1.x + 12f, P_1.y + EditorGUIUtility.singleLineHeight, P_1.width - 12f, EditorGUIUtility.singleLineHeight);
+				Rect rect5 = new Rect(rect.x + 12f, rect.y + EditorGUIUtility.singleLineHeight, rect.width - 12f, EditorGUIUtility.singleLineHeight);
 				foreach (UIVariableBind item in binds)
 				{
 					rect5.y += EditorGUIUtility.singleLineHeight;
