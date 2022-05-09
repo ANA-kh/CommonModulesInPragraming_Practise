@@ -26,8 +26,6 @@ namespace ReactUI
             }
         }
 
-        static string _markCustomParentVariableTable = "@";
-
         public UIVariable FindVariable(string name)
         {
             if (string.IsNullOrEmpty(name))
@@ -36,42 +34,10 @@ namespace ReactUI
             }
 
             string realName = name;
-            UIVariableTable vt = VariableTable;
 
-            if (name.StartsWith(_markCustomParentVariableTable))
+            if (VariableTable != null)
             {
-                int pos = name.IndexOf('/');
-                if (pos >= 0)
-                {
-                    string tableName = name.Substring(1, pos - 1);
-                    realName = name.Substring(pos + 1);
-                    vt = FindCustomParentTable(tableName);
-                }
-            }
-
-            if (vt != null)
-            {
-                return vt.FindVariable(realName);
-            }
-
-            return null;
-        }
-
-        UIVariableTable FindCustomParentTable(string name)
-        {
-            Transform t = this.transform;
-            while (t != null)
-            {
-                if (t.name == name)
-                {
-                    UIVariableTable table = t.GetComponent<UIVariableTable>();
-                    if (table != null)
-                    {
-                        return table;
-                    }
-                }
-
-                t = t.parent;
+                return VariableTable.FindVariable(realName);
             }
 
             return null;

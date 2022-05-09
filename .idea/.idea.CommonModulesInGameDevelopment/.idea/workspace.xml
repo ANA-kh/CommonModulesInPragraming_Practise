@@ -23,15 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBind.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBind.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReactUI/Editor/UIVariableTableEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/Editor/UIVariableTableEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBind.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +89,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/notUp/ReactUI/UIVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/Editor/UIVariableTableEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBind.cs" />
       </list>
     </option>
@@ -170,7 +162,7 @@
       <workItem from="1651979836724" duration="15907000" />
       <workItem from="1651997206825" duration="15231000" />
       <workItem from="1652086617818" duration="130000" />
-      <workItem from="1652088525662" duration="4757000" />
+      <workItem from="1652088525662" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -277,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652089779391</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add variableBind">
+      <created>1652096217714</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652096217714</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +313,8 @@
     <MESSAGE value="start ReactUI" />
     <MESSAGE value="add variableTable" />
     <MESSAGE value="arrange code" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrange code" />
+    <MESSAGE value="add variableBind" />
+    <option name="LAST_COMMIT_MESSAGE" value="add variableBind" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -417,6 +417,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1274" y="651" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1651465281297" />
+    <state x="866" y="466" key="Vcs.Push.Dialog.v2" timestamp="1652096220873">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="866" y="466" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1652096220873" />
     <state x="145" y="0" width="1185" height="1419" key="dock-window-1" timestamp="1652006256007">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -470,6 +474,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs</url>
+          <line>21</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\ReactUI\UIVariableTable.cs" initialLine="21">
+            <startOffsets>
+              <option value="486" />
+            </startOffsets>
+            <endOffsets>
+              <option value="507" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
