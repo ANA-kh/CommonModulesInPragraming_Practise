@@ -42,6 +42,8 @@
             <e p="Editor" t="Include">
               <e p="UIVariableTableEditor.cs" t="Include" />
             </e>
+            <e p="UIVariable.cs" t="Include" />
+            <e p="UIVariableBind.cs" t="Include" />
             <e p="UIVariableTable.cs" t="Include" />
           </e>
           <e p="SimpleIOC" t="Include">

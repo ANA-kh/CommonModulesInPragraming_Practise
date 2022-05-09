@@ -27,6 +27,7 @@ namespace Singleton
                     {
                         var go = new GameObject("Singleton of " + typeof(T).ToString(), typeof(T))
                         {
+                            //对象不会保存到场景中。加载新场景时不会被销毁。相当于HideFlags.DontSaveInBuild | HideFlags.DontSaveInEditor | HideFlags.DontUnloadUnusedAsset
                             hideFlags = HideFlags.DontSave
                         };
                         
