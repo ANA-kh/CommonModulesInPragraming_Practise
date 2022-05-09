@@ -32,15 +32,17 @@
             <e p="PoolKit" t="Include">
               <e p="PoolKit.cs" t="Include" />
             </e>
-            <e p="ReactUI" t="Include">
-              <e p="UIVariable.cs" t="Include" />
-              <e p="UIVariableTable.cs" t="Include" />
-            </e>
             <e p="Singleton" t="Include">
               <e p="Singletonkit.cs" t="Include" />
               <e p="SingletonTest.cs" t="Include" />
               <e p="SingletonUsage.cs" t="Include" />
             </e>
+          </e>
+          <e p="ReactUI" t="Include">
+            <e p="Editor" t="Include">
+              <e p="UIVariableTableEditor.cs" t="Include" />
+            </e>
+            <e p="UIVariableTable.cs" t="Include" />
           </e>
           <e p="SimpleIOC" t="Include">
             <e p="SimpleIOC.cs" t="Include" />

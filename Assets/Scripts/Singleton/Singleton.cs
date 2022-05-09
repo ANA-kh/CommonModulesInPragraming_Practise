@@ -10,7 +10,7 @@ namespace Singleton
         void Cleanup();
     }
 
-    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
+    public abstract class MonoSingleton<T> : MonoBehaviour,ISingleton where T : MonoSingleton<T>
     {
         private static T _instance;
         private bool _hasInit = false;
@@ -45,6 +45,24 @@ namespace Singleton
                 _instance = this as T;
             }
         }
+        
+        public void Init()
+        {
+            if (_hasInit == false)
+            {
+                OnInit();
+                _hasInit = true;
+            }
+        }
+
+        public void Cleanup()
+        {
+            OnCleanup();
+            _hasInit = false;
+        }
+
+        protected abstract void OnInit();
+        protected abstract void OnCleanup();
     }
 
     public abstract class Singleton<T> : ISingleton where T : Singleton<T> //非常死的约束，使得无法像List<int> list 这样直接当作类型使用； 必须新建一个继承自Singleton<T>的类来使用
