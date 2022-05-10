@@ -160,9 +160,7 @@ namespace ReactUI
 				UIVariable[] array = variables;
 				foreach (UIVariable uIVariable in array)
 				{
-					//uIVariable.ResetValue();
-					//uIVariable.ClearBinderList();
-					uIVariable.InvokeValueChange();
+                    uIVariable.InvokeValueChange();
 				}
 			}
 		}

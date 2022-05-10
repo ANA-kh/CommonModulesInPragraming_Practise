@@ -10,10 +10,7 @@ namespace ReactUI
         private UIVariableTable variableTable;
 
         private bool isInited;
-
-
-        private UIVariableTable bindTable;
-
+        
         public UIVariableTable VariableTable { get; private set; }
 
         internal virtual void Init()
@@ -65,7 +62,7 @@ namespace ReactUI
         protected virtual void OnValidate()
         {
 #if UNITY_EDITOR
-            PrefabType prefabType = PrefabUtility.GetPrefabType((Object) base.gameObject);
+            PrefabType prefabType = PrefabUtility.GetPrefabType(gameObject);
             if ((int) prefabType != 1)
             {
                 UnbindVariables();

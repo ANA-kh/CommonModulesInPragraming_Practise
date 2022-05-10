@@ -115,6 +115,7 @@ namespace ReactUI
 
         public event Action OnValueInitialized
         {
+            //对方法加锁
             [MethodImpl(MethodImplOptions.Synchronized)]
             add
             {

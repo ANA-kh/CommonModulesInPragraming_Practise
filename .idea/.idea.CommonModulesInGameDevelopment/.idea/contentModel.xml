@@ -41,10 +41,15 @@
           <e p="ReactUI" t="Include">
             <e p="Editor" t="Include">
               <e p="UIVariableTableEditor.cs" t="Include" />
+              <e p="VariableNameAttributeDrawer.cs" t="Include" />
             </e>
+            <e p="TestReact.cs" t="Include" />
             <e p="UIVariable.cs" t="Include" />
             <e p="UIVariableBind.cs" t="Include" />
+            <e p="UIVariableBindActive.cs" t="Include" />
+            <e p="UIVariableBindBool.cs" t="Include" />
             <e p="UIVariableTable.cs" t="Include" />
+            <e p="VariableNameAttribute.cs" t="Include" />
           </e>
           <e p="SimpleIOC" t="Include">
             <e p="SimpleIOC.cs" t="Include" />
