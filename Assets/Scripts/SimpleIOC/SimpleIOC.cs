@@ -114,7 +114,7 @@ namespace SimpleIOC
         }
 
         public void Inject(object obj)
-        {
+        {                                                                             //等价于p.GetCustomAttributes(typeof(SimpleIOCInjectAttribute)).Count() > 0
             foreach (var propertyInfo in obj.GetType().GetProperties().Where(p => p.GetCustomAttributes(typeof(SimpleIOCInjectAttribute)).Any()))
             {
                 var instance = Resolve(propertyInfo.PropertyType);

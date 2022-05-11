@@ -239,7 +239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &172914011
 RectTransform:
   m_ObjectHideFlags: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
     referenceInt: 0
     referenceFloat: 0
     referenceVariableName: 
-    reverse: 0
+    reverse: 1
   reverse: 0
   transitionMode: 0
   transitionTime: 0.1
@@ -293,7 +293,6 @@ GameObject:
   m_Component:
   - component: {fileID: 286532723}
   - component: {fileID: 286532724}
-  - component: {fileID: 286532726}
   - component: {fileID: 286532725}
   m_Layer: 5
   m_Name: VariableTabel
@@ -362,28 +361,15 @@ MonoBehaviour:
   variableTable: {fileID: 286532724}
   booleanLogic: 0
   variables:
-  - variableName: string
+  - variableName: isActive
     compareMode: 2
     referenceInt: 0
     referenceFloat: 0
     referenceVariableName: 
-    reverse: 0
+    reverse: 1
   reverse: 0
   transitionMode: 0
   transitionTime: 0.1
---- !u!114 &286532726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286532722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e82092dfd924f3d9ca8828807fa1b36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  variableName: 
 --- !u!1 &737996791
 GameObject:
   m_ObjectHideFlags: 0
