@@ -23,10 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/IFsm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/IFsm.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReactUI/ReactUITest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReactUI/ReactUITest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +108,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBindActive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/IFsmState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/IFsm.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +187,7 @@
       <workItem from="1652150875235" duration="10240000" />
       <workItem from="1652174114280" duration="12000" />
       <workItem from="1652239267749" duration="1287000" />
-      <workItem from="1652257292349" duration="196000" />
+      <workItem from="1652257292349" duration="3722000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -306,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652164881924</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add ReactUITest">
+      <created>1652257531538</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652257531538</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +362,8 @@
     <MESSAGE value="add variableBind" />
     <MESSAGE value="delete _markCustomParentVariableTable" />
     <MESSAGE value="add UIVariableBindActive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add UIVariableBindActive" />
+    <MESSAGE value="add ReactUITest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ReactUITest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">

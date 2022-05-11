@@ -24,6 +24,11 @@
               <e p="TypeEventSystem.cs" t="Include" />
             </e>
           </e>
+          <e p="FSM" t="Include">
+            <e p="Fsm.cs" t="Include" />
+            <e p="FsmState.cs" t="Include" />
+            <e p="IFsm.cs" t="Include" />
+          </e>
           <e p="notUp" t="Include">
             <e p="IOC" t="Include">
               <e p="IOCExample.cs" t="Include" />
