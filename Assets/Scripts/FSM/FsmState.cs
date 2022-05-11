@@ -17,7 +17,7 @@ namespace FSM
         {
         }
         
-        public virtual void OnUpdate(IFsm<T> fsm, float elapseSeconds, float realElapseSeconds)
+        public virtual void OnUpdate(IFsm<T> fsm, float logicSeconds, float realSeconds)
         {
         }
         

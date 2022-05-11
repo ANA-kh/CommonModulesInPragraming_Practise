@@ -23,6 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" afterDir="false" />
@@ -103,9 +110,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ReactUI/UIVariableBindActive.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleIOC/SimpleIOC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/IFsmState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/IFsm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +146,22 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../framework-design/.gitignore" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="FSM.FsmTest.ContinueState" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="E:\Software\JetBrains Rider 2020.2\lib\ReSharperHost\JetLauncherILc.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
+      <option name="CLASS_NAME" value="FSM.FsmTest" />
+      <option name="METHOD_NAME" value="ContinueState" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -155,6 +180,11 @@
       </option>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Static Method.FSM.FsmTest.ContinueState" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -181,7 +211,7 @@
       <workItem from="1652150875235" duration="10240000" />
       <workItem from="1652174114280" duration="12000" />
       <workItem from="1652239267749" duration="1287000" />
-      <workItem from="1652257292349" duration="7247000" />
+      <workItem from="1652257292349" duration="13739000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -323,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652262031307</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="complete Fsm">
+      <created>1652273830661</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652273830661</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,13 +402,18 @@
     <MESSAGE value="add UIVariableBindActive" />
     <MESSAGE value="add ReactUITest" />
     <MESSAGE value="add IFsm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IFsm" />
+    <MESSAGE value="complete Fsm" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Fsm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1528" y="547" key="#Notifications/0.0.2560.1440@0.0.2560.1440" timestamp="1651158382921" />
+    <state x="1170" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1652280546993">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1170" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1652280546993" />
     <state x="492" y="527" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1651212680130">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -384,70 +426,86 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1122" y="100" width="1341" height="1240" key="DiffContextDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1651998698290" />
-    <state width="1602" height="256" key="GridCell.Tab.0.bottom" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.0.bottom" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.0.center" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.0.center" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.0.left" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.0.left" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.0.right" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.0.right" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.1.bottom" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.1.bottom" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.1.center" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.1.center" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.1.left" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.1.left" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.1.right" timestamp="1652164887591">
+    <state width="1602" height="256" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.1.right" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887591" />
-    <state width="1602" height="256" key="GridCell.Tab.2.bottom" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.2.bottom" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.2.center" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.2.center" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.2.left" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.2.left" timestamp="1652281502998">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.2.right" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502998" />
+    <state width="1602" height="256" key="GridCell.Tab.2.right" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.3.bottom" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.3.bottom" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.3.center" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.3.center" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.3.left" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.3.left" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
-    <state width="1602" height="256" key="GridCell.Tab.3.right" timestamp="1652164887592">
+    <state width="1602" height="256" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.3.right" timestamp="1652281502999">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1602" height="256" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652164887592" />
+    <state width="1602" height="256" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652281502999" />
+    <state width="1602" height="256" key="GridCell.Tab.4.bottom" timestamp="1652280549341">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1602" height="256" key="GridCell.Tab.4.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1652280549341" />
+    <state width="1602" height="256" key="GridCell.Tab.4.center" timestamp="1652280549341">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1602" height="256" key="GridCell.Tab.4.center/0.0.2560.1440@0.0.2560.1440" timestamp="1652280549341" />
+    <state width="1602" height="256" key="GridCell.Tab.4.left" timestamp="1652280549341">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1602" height="256" key="GridCell.Tab.4.left/0.0.2560.1440@0.0.2560.1440" timestamp="1652280549341" />
+    <state width="1602" height="256" key="GridCell.Tab.4.right" timestamp="1652280549341">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1602" height="256" key="GridCell.Tab.4.right/0.0.2560.1440@0.0.2560.1440" timestamp="1652280549341" />
     <state x="253" y="452" key="Rider.ProjectTemplateDialog.Size" timestamp="1651213921818">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -538,6 +596,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs</url>
+          <line>61</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\FSM\Fsm.cs" initialLine="54">
+            <startOffsets>
+              <option value="1872" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1911" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs</url>
+          <line>34</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\FSM\FsmTest.cs" initialLine="31">
+            <startOffsets>
+              <option value="1010" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1061" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs</url>
+          <line>86</line>
+          <properties documentPath="E:\UnityProject\CommonModulesInGameDevelopment\Assets\Scripts\FSM\FsmTest.cs" initialLine="86">
+            <startOffsets>
+              <option value="2627" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2659" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -27,6 +27,8 @@
           <e p="FSM" t="Include">
             <e p="Fsm.cs" t="Include" />
             <e p="FsmState.cs" t="Include" />
+            <e p="FsmTest.cs" t="Include" />
+            <e p="FsmTestMono.cs" t="Include" />
             <e p="IFsm.cs" t="Include" />
           </e>
           <e p="notUp" t="Include">

@@ -19,7 +19,6 @@ namespace FSM
             get => _name;
             protected set => _name = value ?? string.Empty;
         }
-
         public T Owner => _owner;
         public Type OwnerType => typeof(T);
         public int FsmStateCount => _states.Count;
@@ -28,6 +27,14 @@ namespace FSM
         public FsmState<T> CurrentState => _currentState;
         public float CurrentStateTime => _currentStateTime;
 
+        public Fsm()
+        {
+            _owner = null;
+            _states = new Dictionary<Type, FsmState<T>>();
+            _currentState = null;
+            _currentStateTime = 0f;
+            _isDestroyed = true;
+        }
         public static Fsm<T> Create(string name, T owner, List<FsmState<T>> states)
         {
             if (owner == null)
