@@ -1,5 +1,8 @@
 ﻿namespace BehaviorTree.Composite
 {
+    /// <summary>
+    ///  顺寻执行，返回子节点  与
+    /// </summary>
     public class Sequence : Composite
     {
         public Sequence(string displayName, params NodeBase[] childNodes) : base(displayName, childNodes)

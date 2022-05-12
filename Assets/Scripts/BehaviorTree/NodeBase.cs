@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace BehaviorTree
 {
@@ -31,6 +32,7 @@ namespace BehaviorTree
                 Reset();
             }
 
+            Debug.Log(Name+".RunBack----" + nodeStatus.ToString() +"----reason:" +  StatusReason);
             return nodeStatus;
         }
         

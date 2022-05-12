@@ -10,15 +10,31 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BehaviorTree" t="Include">
-            <e p="Action" t="Include" />
+            <e p="Action" t="Include">
+              <e p="NavigateToDestination.cs" t="Include" />
+              <e p="SetNavigationActivityTo.cs" t="Include" />
+            </e>
             <e p="Composite" t="Include">
               <e p="Composite.cs" t="Include" />
               <e p="Selector.cs" t="Include" />
               <e p="Sequence.cs" t="Include" />
             </e>
-            <e p="Condition" t="Include" />
-            <e p="Decorator" t="Include" />
+            <e p="Condition" t="Include">
+              <e p="AreItemsNearBy.cs" t="Include" />
+              <e p="Condition.cs" t="Include" />
+              <e p="IsNavigationActivityTypeOf.cs" t="Include" />
+            </e>
+            <e p="Decorator" t="Include">
+              <e p="Decorator.cs" t="Include" />
+              <e p="Inverter.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+            </e>
             <e p="NodeBase.cs" t="Include" />
+            <e p="Test" t="Include">
+              <e p="GameManager.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="NPC.cs" t="Include" />
+            </e>
           </e>
           <e p="Editor" t="Include">
             <e p="NUnitTest" t="Include">
@@ -74,6 +90,7 @@
             <e p="UnitTest.cs" t="Include" />
           </e>
           <e p="Singleton" t="Include">
+            <e p="MonoSingleton.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
         </e>

@@ -1,5 +1,8 @@
 ﻿namespace BehaviorTree.Composite
 {
+    /// <summary>
+    ///  无权重选择，返回 或
+    /// </summary>
     public class Selector : Composite
     {
         public Selector(string displayName, params NodeBase[] childNodes) : base(displayName, childNodes)
