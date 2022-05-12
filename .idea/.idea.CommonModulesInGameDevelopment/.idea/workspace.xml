@@ -23,16 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FSM/FsmState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/NodeBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/NodeBase.cs" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +106,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/Fsm.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FSM/FsmTestMono.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/BevNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/NodeBase.cs" />
       </list>
     </option>
   </component>
@@ -212,6 +205,8 @@
       <workItem from="1652174114280" duration="12000" />
       <workItem from="1652239267749" duration="1287000" />
       <workItem from="1652257292349" duration="13739000" />
+      <workItem from="1652281517838" duration="15000" />
+      <workItem from="1652324211784" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -360,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652273830661</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add fsm test">
+      <created>1652281529777</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652281529777</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add NodeBase">
+      <created>1652346002407</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652346002407</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +412,9 @@
     <MESSAGE value="add ReactUITest" />
     <MESSAGE value="add IFsm" />
     <MESSAGE value="complete Fsm" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Fsm" />
+    <MESSAGE value="add fsm test" />
+    <MESSAGE value="add NodeBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NodeBase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
