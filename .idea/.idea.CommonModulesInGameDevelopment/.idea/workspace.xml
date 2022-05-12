@@ -23,42 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Action/NavigateToDestination.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Action/NavigateToDestination.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Action/SetNavigationActivityTo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Action/SetNavigationActivityTo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/AreItemsNearBy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/AreItemsNearBy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/Condition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/Condition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/IsNavigationActivityTypeOf.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Condition/IsNavigationActivityTypeOf.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Decorator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Decorator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Inverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Inverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Timer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Decorator/Timer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/Item.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/NPC.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/NPC.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CommonModulesInGameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Composite/Selector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Composite/Selector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Composite/Sequence.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Composite/Sequence.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/NodeBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/NodeBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
-    <list id="87dbdbd0-f1d3-498d-abf4-8caff5f6bbe6" name="add NodeBase" comment="" />
-    <list id="5bb6d726-9eb0-44cd-ba04-68ef31273321" name="fix monosingle init" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/MonoSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Singleton/MonoSingleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/BTTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BehaviorTree/Test/BTTest.unity" afterDir="false" />
     </list>
     <list id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="add simpleIOC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,8 +194,8 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="c48c7eef-25d6-4f3a-ab97-2a92e41c59e7" name="Default Changelist" comment="" />
       <changelist id="7b028c64-a7e8-46a0-abf9-b5e82f79dcd4" name="local" comment="" />
-      <changelist id="87dbdbd0-f1d3-498d-abf4-8caff5f6bbe6" name="add NodeBase" comment="" />
-      <changelist id="5bb6d726-9eb0-44cd-ba04-68ef31273321" name="fix monosingle init" comment="" />
+      <changelist id="" name="add NodeBase" comment="" />
+      <changelist id="" name="fix monosingle init" comment="" />
       <created>1651158332676</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -253,7 +218,7 @@
       <workItem from="1652239267749" duration="1287000" />
       <workItem from="1652257292349" duration="13739000" />
       <workItem from="1652281517838" duration="15000" />
-      <workItem from="1652324211784" duration="14248000" />
+      <workItem from="1652324211784" duration="14699000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1651480394199</created>
@@ -430,7 +395,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652346879616</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix MonoSingleton init bug">
+      <created>1652357214205</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357214206</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add action Condition testScene">
+      <created>1652357331597</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357331597</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add action Condition testScene">
+      <created>1652357337344</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652357337344</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +462,9 @@
     <MESSAGE value="add fsm test" />
     <MESSAGE value="add NodeBase" />
     <MESSAGE value="add Composite" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Composite" />
+    <MESSAGE value="fix MonoSingleton init bug" />
+    <MESSAGE value="add action Condition testScene" />
+    <option name="LAST_COMMIT_MESSAGE" value="add action Condition testScene" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1528" y="547" key="#Notifications" timestamp="1651158382921">
@@ -599,10 +587,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1274" y="651" key="VCS.ChangelistChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1652354255349" />
-    <state x="866" y="466" key="Vcs.Push.Dialog.v2" timestamp="1652096220873">
+    <state x="866" y="466" key="Vcs.Push.Dialog.v2" timestamp="1652357349092">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="866" y="466" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1652096220873" />
+    <state x="866" y="466" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1652357349092" />
     <state x="145" y="0" width="1185" height="1419" key="dock-window-1" timestamp="1652006256007">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
